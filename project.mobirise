@@ -1,0 +1,1771 @@
+{
+  "settings": {
+    "name": "Site-10-02_1911-clone",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "colorm",
+      "title": "ColorM",
+      "styling": {
+        "primaryColor": "#f39c12",
+        "buttonsColor": "#000000",
+        "secondaryColor": "#9b59b6",
+        "successColor": "#2ecc71",
+        "infoColor": "#3498db",
+        "warningColor": "#f1c40f",
+        "dangerColor": "#e74c3c",
+        "titleFont": "Arvo",
+        "subtitleFont": "Montserrat",
+        "textFont": "Open Sans",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": [
+        "#6c6c6c",
+        "#fcd63c",
+        "#ffb541",
+        "#9fa3a7"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.5.4",
+    "uniqCompNum": 66,
+    "versionPublish": "4.5.4",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ecf0f1"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ecf0f1"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ecf0f1",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-family": "'Open Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "1.05rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.137rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ecf0f1"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#962d22"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#b33528!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#c0392b"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ecf0f1",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f39c12!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#c0392b",
+            "fontSize": "1.05",
+            "fontName": {
+              "name": "Open Sans",
+              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "css": "'Open Sans', sans-serif"
+            },
+            "fontColor": "#ecf0f1",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features6-11\">about Alalali</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features7-12\">Available Positions</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"index.html#call5-16\">Applay Now</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/alalali-new-logo-137x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-0"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#93a3a7",
+              "font-style": "italic"
+            },
+            ".mbr-section-title": {
+              "text-align": "left"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "buttonAlign": "left",
+            "showArrow": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/alalali-1803x1025.png",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2c3e50",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.3"
+          },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "title": "WE<br>ARE<br>HIRING",
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-text btn-warning\" href=\"index.html#features6-11\" data-toolbar=\"-mbrBtnMove\">About Alalali</a> <a data-app-btn=\"true\" class=\"btn btn-text btn-warning\" href=\"index.html#features7-12\" data-toolbar=\"-mbrBtnMove\">Available Positions&nbsp;</a>  ",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-l"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".mbr-section-text": {
+              "color": "#000000"
+            }
+          },
+          "_params": {
+            "showImages": true,
+            "showNumber": false,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false,
+            "imageSize": "46",
+            "paddingTop": "3",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nb11.png",
+              "class": "card-img-top",
+              "width": 600
+            },
+            "video": {
+              "active": true,
+              "src": "https://youtu.be/pB7ytjehu3w",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title1": "ABOUT &nbsp;AL ALALI",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "alalali tells a story of rapid growth and success. After launching in Saudi Arabia in 1990 with a handful of products, we have continued to develop and are now considered one of the leading and most trusted food brands in the Middle East.<br><br>Thanks to a team of highly dedicated professionals, alalali remains committed to raising the standards of food quality in the region. It is this focus on quality and attention to market needs that make us proud to call millions of families across the Middle East our customers! alalali now offers more than 250 products that are available in Saudi Arabia, UAE, Bahrain, Kuwait, Oman, and Yemen, in addition to Jordan.<br>",
+          "number1": "1",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">AVAILABLE POSITIONS</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features6",
+          "_anchor": "features6-11"
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
+          },
+          "text1": "<p>Since being founded, alalali has established unique quality standards that others find difficult to match; a commitment to unsurpassed quality and a value for money platform. Such high standards follow through in our commitment to transparency and sound business ethics.</p><p><br></p>",
+          "text2": "<p>Our dedication has earned alalali a top position among the most powerful Arab brands in the Middle East, as ranked by Forbes Arabia in 2008. We are determined to build on this success and grow alalali to an even brighter future.</p>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_anchor": "content6-13",
+          "_styles": {
+            "P": {
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".mbr-section-text": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-title": {
+              "color": "#f39c12"
+            }
+          },
+          "_params": {
+            "showImages": true,
+            "showNumber": false,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "imageSize": "49",
+            "showButtons": true,
+            "paddingTop": "3",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#c0392b",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nb12.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "AVAILABLE POSITIONS&nbsp;",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "<b>We are building our new intenal digital marketing team. We are looking for talented, creative, and dedicated professional individuals to lead all digital marketing activities</b>",
+          "number1": "1",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"index.html#features8-a\" data-toolbar=\"-mbrBtnMove\">&nbsp; &nbsp;DIGITAL MARKETING MANAGER &nbsp;</a> <a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"index.html#features8-c\" data-toolbar=\"-mbrBtnMove\">&nbsp; &nbsp; SOCIAL MEDIA SPECIALIST &nbsp; &nbsp;&nbsp;</a> <a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"index.html#features8-n\" data-toolbar=\"-mbrBtnMove\">CREATIVE CONTENT DEVELOPER</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features7",
+          "_anchor": "features7-12"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".mbr-section-text": {
+              "color": "#000000"
+            },
+            ".mbr-section-title": {
+              "color": "#e74c3c"
+            },
+            ".mbr-section-text B": {
+              "color": "#000000"
+            }
+          },
+          "_params": {
+            "showImages": true,
+            "showNumber": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": true,
+            "imageSize": "54",
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#eeeeee",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/manager-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "title1": "Digital Marketing Manager",
+          "subtitle1": "Job Disciptiond",
+          "caption1": "We are searching for a highly-creative Digital Marketing Manager to lead our digital marketing team. In this position, you will be responsible for all aspects of our digital marketing operations. Your central goal is to help grow our brand’s influence locally and regionally while also increasing brand loyalty and awareness.<br><br>Your duties will include initiating planning, implementing, and monitoring our digital marketing campaigns across all digital networks. Our ideal candidate is someone with experience in marketing, art direction, and social media management. In addition to being an outstanding communicator, you will also demonstrate excellent interpersonal and analytical skills.",
+          "number1": "1",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"index.html#call5-16\" data-toolbar=\"-mbrBtnMove\"><span class=\"icon54-v3-clipboard-write mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features8",
+          "_anchor": "features8-a"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "0",
+            "bgColor": "#ffffff"
+          },
+          "text": "<p><b>Management responsibilities:</b></p><p><span style=\"font-size: 1rem;\">- Manage, lead, and evaluate Team consisting of specialists, writers, graphic designers, videographers, etc..&nbsp;</span></p><p>- Recruitment, selection, and training of marketing operations employees in the digital marketing department</p><p>- Measure team performance against KPI’s.</p><p>- Manage Budgets effectively and efficiently</p><p>- Ensure all tasks are being efficiently handled and delivered on time and on budgets.</p>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-5",
+          "_styles": {
+            "P": {
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#ffffff"
+          },
+          "text": "<b>Digital marketing responsibilities:</b><div>- Create analytical and performance monthly reports :</div><div>&nbsp; &nbsp; &nbsp; &nbsp; - Web analytics (Website health, keywords ranking, traffic, customer behavior,..)</div><div>&nbsp; &nbsp; &nbsp; &nbsp; - Social media analytic and performance reports</div><div>&nbsp; &nbsp; &nbsp; &nbsp; - competitors’ performance report</div><div>-&nbsp;<span style=\"font-size: 1rem;\">Developing social media content plans that are consistent with the company’s master marketing plan and brand identity</span></div><div><div>- Building strong and engaging social media presence</div><div>- Monitoring company's brand on social media and analyzing data to determine whether online campaigns have achieved their objectives</div><div>- Overseeing customer service provided via social media</div><div>- Managing our online communities to ensure respectful and appropriate engagement</div><div>- Running company social media advertising campaigns</div><div>- Edit and proofread content before final publication</div><div>- Stays on top of industry news</div><div>- Prepare and execute conversion tests</div><div>- Coaching employees company-wide on content creation best practices</div><div>- Provides educational opportunities, relevant information, and growth opportunities for digital marketing staff</div><div>- Grow the website traffic and enable digital growth</div></div>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-6",
+          "_styles": {
+            "BLOCKQUOTE": {
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#ffffff"
+          },
+          "text": "<p><b>Requirements</b></p><p>- Bachelor’s degree in Marketing or relevant field.</p><p>- A minimum of 5 years’ experience in a digital marketing or advertising position.</p><p>- Highly creative with in-depth knowledge of various social media platforms, best practices, and website analytics.</p><p>- Experience using various analytics software and social media management tools (Hootsuite, Google Analytics, etc.. )</p><p>- Excellent project management skills.</p><p>- Effective communication and interpersonal skills.</p><p>- Up-to-date on the latest trends and technologies in digital marketing.</p><p>- Multi-tasking and time-management skills, with the ability to prioritize tasks.</p>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-b",
+          "_styles": {
+            "BLOCKQUOTE": {
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".mbr-section-text": {
+              "color": "#000000"
+            },
+            ".mbr-section-title": {
+              "color": "#e74c3c"
+            }
+          },
+          "_params": {
+            "showImages": true,
+            "showNumber": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": true,
+            "imageSize": "63",
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#eeeeee",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/-600x336.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "title1": "Social Media Specialist",
+          "subtitle1": "Job Disciptiond",
+          "caption1": "We are looking for an experienced and enthusiastic Social Media Specialist to join our creative team. You will be responsible for creating social media campaigns and the day-to-day management of the company’s social media properties. Your passion for social media as a communications tool will result in the adoption and implementation of social media best practices across all social media channels.<br><br>Candidate shall be an excellent communicator, a versatile creative writer, and a team player. He/She will be actively participating in data collection and analyses in order to consistently improve the company’s social media practices over time.<br>",
+          "number1": "2",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"index.html#contacts3-z\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-edit mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features8",
+          "_anchor": "features8-c"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "0",
+            "bgColor": "#ffffff"
+          },
+          "text": "<p><b>Responsibilities</b></p><p>- Participate in developing social media content plans that are consistent with the company’s brand identity.</p><p>- Creating consistent, meaningful, engaging content on all social media platforms, including writing and editing social media posts</p><p>- Edit and proofread written pieces before publication</p><p>- Promoting social media campaigns</p><p>- Engage with online community and respond to comments and requests in a timely manner.</p><p>- Developing and managing social influencer programs and attending social influencer events</p><p>- Relay community feedback to relevant internal stakeholders.</p><p>- Suggesting recommendations to adjust the social media marketing strategy for optimal results.</p><p>- Using analytical tools such as Google Analytics, Hootsuite Pro, and Facebook Insights,..  to monitor and evaluate the company’s social media presence and performance.</p><p>- Staying up to date on best practices and emerging trends in social media.</p><p></p>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-4",
+          "_styles": {
+            "P": {
+              "font-size": "16px",
+              "color": "#000000"
+            },
+            "DIV": {
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#ffffff"
+          },
+          "text": "<p><b>Requirements</b></p><p>- Bachelor’s degree in journalism, communications, marketing, or a related field.</p><p>- 3 or more years of social media experience including initiating planning and managing content in a corporate, or agency setting.</p><p>- At least 2 years' experience managing following social media platforms is essential (Facebook, Instagram, LinkedIn, Snapchat, Twitter, and YouTube.</p><p>- Strong writing and verbal communication skills in both Arabic &amp; English.</p><p>- Experience using various analytics software and social media management tools (Hootsuite, Google Analytics, etc.. )</p><p>- Multi-tasking and time-management skills, with the ability to prioritize tasks.</p><p>- Working knowledge of HTML and CSS.</p>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_styles": {
+            "BLOCKQUOTE": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "content2-d"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".mbr-section-text": {
+              "color": "#000000"
+            },
+            ".mbr-section-title": {
+              "color": "#e74c3c"
+            }
+          },
+          "_params": {
+            "showImages": true,
+            "showNumber": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": true,
+            "imageSize": "57",
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#eeeeee",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/unnamed-512x293.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "title1": "<b>Creative Content Developer</b>",
+          "subtitle1": "Job Disciptiond",
+          "caption1": "We are looking for a creative, dedicated individual to join our team as a Content Developer. The responsibilities of the Content Developer include creating original content for our website, update existing material, and advertising that includes copywriting, graphics, and product description. The Content Developer must also adhere to SEO best practices.<br><br>The Content Developer focus on creating engaging material appealing to consumers' interests.<br>",
+          "number1": "3",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"index.html#contacts3-z\" data-toolbar=\"-mbrBtnMove\"><span class=\"icon54-v3-clipboard-write mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features8",
+          "_anchor": "features8-n"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "0",
+            "bgColor": "#ffffff"
+          },
+          "text": "<p><b>Responsibilities</b></p><p>- Research industry-related topics and recommend new topics.</p><p>- Collaborating with the team and internal departments to establish campaign objectives</p><p>- Coordinate with marketing and design teams to illustrate content&nbsp;</p><p>- Conduct keyword research (in-depth) and apply SEO guidelines to optimize content</p><p>- The Content Developer must also adhere to SEO best practices.</p><p>- Creates new, creative &amp; engaging ideas to compete with other brands&nbsp;</p><p>- Writing clear, concise, creative, and engaging micro content such as :</p><p>&nbsp; &nbsp; &nbsp;- Engaging social posts</p><p>&nbsp; &nbsp; &nbsp;- Create marketing copy for Digital ads</p><p>&nbsp; &nbsp; &nbsp;- Short videos scenario&nbsp;</p><p>&nbsp; &nbsp; &nbsp;- Infographics</p><p>&nbsp; &nbsp; &nbsp;- Slogans for POS</p><p>- Formulating high-quality optimized written macro content such as :</p><p>&nbsp; &nbsp; &nbsp;- Blog posts</p><p>&nbsp; &nbsp; &nbsp;- Website content</p><p>&nbsp; &nbsp; &nbsp;- Product description</p><p>&nbsp; &nbsp; &nbsp;- Email newsletter</p><p>&nbsp; &nbsp; &nbsp;- Landing pages</p><p>&nbsp; &nbsp; &nbsp;- products campaigns</p><p>- Review and proofread written content before final publication</p><p><br></p><p></p>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_styles": {
+            "P": {
+              "font-size": "16px",
+              "color": "#000000"
+            },
+            "DIV": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "content2-f"
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#ffffff"
+          },
+          "text": "<p><b>Requirements</b></p><p>- Bachelor’s degree in English, Marketing, or a similar field</p><p>- Experience creating strong, engaging content</p><p>- A portfolio of applicable outputs</p><p>- Practical understanding of SEO best practices</p><p>- Demonstrated excellence in writing, proofreading, and editing in both Arabic &amp; English.</p><p>- Excellent research, organizational, and time management skills</p><p>- Strong listening and communication skills</p><p>- The capacity to work independently and collaboratively</p><p>- Ability to work efficiently without compromising quality or accuracy</p>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_styles": {
+            "BLOCKQUOTE": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "content2-g"
+        },
+        {
+          "_styles": {},
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "1",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showText1": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/07.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.7
+          },
+          "title": "INSTRUCTION TO APPLY",
+          "text": "<b>To apply for one of the above positions, please send an email to  <a href=\"mailto:careers@alalali.com\">careers@alalali.com</a>  and mention the positions that  you are applying for.</b><br>",
+          "text1": "or <a href=\"http://mobirise.com\">Check FAQ</a>.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"mailto:careers@alalali.com\" data-toolbar=\"-mbrBtnMove\">Apply now</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "call5",
+          "_anchor": "call5-16"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/img_extHeader7_bg.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#c0392b",
+            "overlay": true,
+            "overlayColor": "#35a0c6",
+            "overlayOpacity": 0.4,
+            "facebook": true,
+            "twitter": true,
+            "google": false,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "text": "SHARE THIS PAGE!",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-15",
+          "_customHTML": "<section class=\"mbr-section mbr-section-md-padding social-buttons1\" data-rv-view=\"358\" style=\"background-color: rgb(192, 57, 43); padding-top: 30px; padding-bottom: 0px;\">\n    \n    <div class=\"container-fluid\">\n        <div class=\"row\">\n            <div class=\"col-md-8 col-md-offset-2 text-xs-center\">\n                <h3 class=\"mbr-section-title display-2 mbr-editable-content\" style=\"font-size: 40px;\" code-editable-id=\"20\">SHARE THIS PAGE!</h3>\n                <div>\n\n                  <div class=\"mbr-social-likes\" data-counters=\"false\">\n                    <span class=\"btn btn-social facebook\" title=\"Share link on Facebook\">\n                        <i class=\"socicon socicon-facebook\"></i>\n                    </span>\n                    <span class=\"btn btn-social twitter\" title=\"Share link on Twitter\">\n                        <i class=\"socicon socicon-twitter\"></i>\n                    </span>\n                    \n                  </div>\n\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "@import url(undefined);\n@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);\n.btn-social {\n  color: #fff;\n  height: 60px;\n  width: 60px;\n  line-height: 60px;\n}\n.mbr-section-title {\n  color: #fff;\n  font-family: 'Lato', sans-serif;\n}\n",
+          "_customTemplate": true
+        },
+        {
+          "_params": {
+            "showCat1": false,
+            "showCat2": false,
+            "showCat3": true,
+            "showText": true,
+            "showButtons": true,
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#e74c3c",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "title1": "350 5th Ave, New York, NY 10118",
+          "title2": "+1 234-567-890",
+          "title3": "<a href=\"mailto:careers@alalali.com\">&nbsp;careers@alalali.com</a>",
+          "cat1": "address",
+          "cat2": "phone",
+          "cat3": "email",
+          "text": "<b>INSTRUCTION TO APPLY<br>To apply for one of the above positions, please send an email to&nbsp; <a href=\"mailto:careers@alalali.com\">careers@alalali.com</a>&nbsp; and mention the positions that &nbsp;you are applying for.<br><br>WE APPRTIATE IF YOU SHARE THIS PAGE OF&nbsp;</b>",
+          "buttons": "   <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.facebook.com/alalali/\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-facebook\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-linkedin\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-linkedin\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-linkedin\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-linkedin\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-linkedin\"></span></a>",
+          "formButton": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
+          "form": {
+            "action": "ashram@wsi-sa.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts3",
+          "_anchor": "contacts3-z",
+          "_customCSS": ".form-control-label {\n  color: undefined;\n}\n.mbr-section-text {\n  color: #ffffff;\n}\n",
+          "_customHTML": "<section class=\"mbr-section mbr-section-hero contacts\" data-rv-view=\"254\" style=\"background-color: rgb(51, 51, 51); padding-top: 20px; padding-bottom: 0px;\">\n\n    \n\n    <div class=\"mbr-table-cell\">\n\n        <div class=\"container-fluid\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-md-6 col-lg-5 col-lg-offset-1 text-xs-center \">\n\n                    \n                    \n                    <div>\n\n                      <h1 class=\"mbr-section-title display-6 mbr-editable-content\" code-editable-id=\"102\"><a href=\"mailto:careers@alalali.com\">&nbsp;careers@alalali.com</a></h1>\n                    </div>\n\n      <div class=\"mbr-section-btn padding-bottom-40 btn-wrap\">   \n\n<a class=\"btn btn-primary mbr-editable-button\" href=\"https://www.facebook.com/alalali/\" code-editable-id=\"103\"><span class=\"socicon socicon-facebook\"></span></a>\n\n<a class=\"btn btn-primary mbr-editable-button\" href=\"https://www.instagram.com/alalali_me/\" code-editable-id=\"104\"><span class=\"socicon socicon-instagram\"></span></a> \n\n<a class=\"btn btn-primary mbr-editable-button\" href=\"https://twitter.com/alalali_ME\" code-editable-id=\"105\"><span class=\"socicon socicon-twitter\"></span></a> \n\n<a class=\"btn btn-primary mbr-editable-button\" href=\"https://www.youtube.com/channel/UCvjS2iJ69KJLxGfEQqUTi8A\" code-editable-id=\"106\"><span class=\"socicon socicon-youtube\"></span></a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customTemplate": true,
+          "_styles": {
+            ".form-control-label": {}
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2020 al alali. All rights reserved. Developed by&nbsp;<a href=\"http://mobirise.com\">WSI</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-x"
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "title": "Page 1",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ecf0f1"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ecf0f1"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ecf0f1",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-family": "'Open Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "1.2rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.300rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ecf0f1"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a242f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#273646!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2c3e50"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ecf0f1",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f39c12!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#c0392b",
+            "fontSize": "1.05",
+            "fontName": {
+              "name": "Open Sans",
+              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "css": "'Open Sans', sans-serif"
+            },
+            "fontColor": "#ecf0f1",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features6-11\">about Alalali</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features7-12\">Available Positions</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"index.html#call5-16\">Applay Now</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/alalali-new-logo-137x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-18"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#93a3a7",
+              "font-style": "italic"
+            },
+            ".mbr-section-title": {
+              "text-align": "left"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "buttonAlign": "left",
+            "showArrow": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/alalali-1803x1025.png",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2c3e50",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#2c3e50",
+            "overlayOpacity": "0.2"
+          },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "title": "WE<br>ARE<br>HIRING",
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-text btn-warning\" href=\"index.html#features6-11\" data-toolbar=\"-mbrBtnMove\">About Alalali</a> <a data-app-btn=\"true\" class=\"btn btn-text btn-warning\" href=\"index.html#features7-12\" data-toolbar=\"-mbrBtnMove\">Available Positions&nbsp;</a>  ",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-19"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".mbr-section-text": {
+              "color": "#000000"
+            }
+          },
+          "_params": {
+            "showImages": true,
+            "showNumber": false,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false,
+            "imageSize": 50,
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nb11.png",
+              "class": "card-img-top",
+              "width": 600
+            },
+            "video": {
+              "active": true,
+              "src": "https://youtu.be/pB7ytjehu3w",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title1": "ABOUT &nbsp;AL ALALI",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "alalali tells a story of rapid growth and success. After launching in Saudi Arabia in 1990 with a handful of products, we have continued to develop and are now considered one of the leading and most trusted food brands in the Middle East.<br><br>Thanks to a team of highly dedicated professionals, alalali remains committed to raising the standards of food quality in the region. It is this focus on quality and attention to market needs that make us proud to call millions of families across the Middle East our customers! alalali now offers more than 250 products that are available in Saudi Arabia, UAE, Bahrain, Kuwait, Oman, and Yemen, in addition to Jordan.<br>",
+          "number1": "1",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">AVAILABLE POSITIONS</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features6",
+          "_anchor": "features6-1a"
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
+          },
+          "text1": "<p>Since being founded, alalali has established unique quality standards that others find difficult to match; a commitment to unsurpassed quality and a value for money platform. Such high standards follow through in our commitment to transparency and sound business ethics.</p><p><br></p>",
+          "text2": "<p>Our dedication has earned alalali a top position among the most powerful Arab brands in the Middle East, as ranked by Forbes Arabia in 2008. We are determined to build on this success and grow alalali to an even brighter future.</p>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_styles": {
+            "P": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "content6-1b"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".mbr-section-text": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-title": {
+              "color": "#f39c12"
+            }
+          },
+          "_params": {
+            "showImages": true,
+            "showNumber": false,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "imageSize": 50,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#c0392b",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nb12.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "AVAILABLE POSITIONS&nbsp;",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "<b>We are building our new intenal digital marketing team. We are looking for talented, creative, and dedicated professional individuals to lead all digital marketing activities</b>",
+          "number1": "1",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"index.html#features8-a\" data-toolbar=\"-mbrBtnMove\">&nbsp; &nbsp;DIGITAL MARKETING MANAGER &nbsp;</a> <a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"index.html#features8-c\" data-toolbar=\"-mbrBtnMove\">&nbsp; &nbsp; SOCIAL MEDIA SPECIALIST &nbsp; &nbsp;&nbsp;</a> <a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"index.html#features8-n\" data-toolbar=\"-mbrBtnMove\">CREATIVE CONTENT DEVELOPER</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features7",
+          "_anchor": "features7-1c"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".mbr-section-text": {
+              "color": "#000000"
+            },
+            ".mbr-section-title": {
+              "color": "#e74c3c"
+            },
+            ".mbr-section-text B": {
+              "color": "#000000"
+            }
+          },
+          "_params": {
+            "showImages": true,
+            "showNumber": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": true,
+            "imageSize": "63",
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#eeeeee",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nb11.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "Digital Marketing Manager",
+          "subtitle1": "Job Disciptiond",
+          "caption1": "We are searching for a highly-creative Digital Marketing Manager to lead our digital marketing team. In this position, you will be responsible for all aspects of our digital marketing operations. Your central goal is to help grow our brand’s influence locally and regionally while also increasing brand loyalty and awareness.<br><br>Your duties will include initiating planning, implementing, and monitoring our digital marketing campaigns across all digital networks. Our ideal candidate is someone with experience in marketing, art direction, and social media management. In addition to being an outstanding communicator, you will also demonstrate excellent interpersonal and analytical skills.",
+          "number1": "1",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"icon54-v3-clipboard-write mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features8",
+          "_anchor": "features8-1d"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "0",
+            "bgColor": "#ffffff"
+          },
+          "text": "<p><b>Management responsibilities:</b></p><p><span style=\"font-size: 1rem;\">- Manage, lead, and evaluate Team consisting of specialists, writers, graphic designers, videographers, etc..&nbsp;</span></p><p>- Recruitment, selection, and training of marketing operations employees in the digital marketing department</p><p>- Measure team performance against KPI’s.</p><p>- Manage Budgets effectively and efficiently</p><p>- Ensure all tasks are being efficiently handled and delivered on time and on budgets.</p>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_styles": {
+            "P": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "content2-1e"
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#ffffff"
+          },
+          "text": "<b>Digital marketing responsibilities:</b><div>- Create analytical and performance monthly reports :</div><div>&nbsp; &nbsp; &nbsp; &nbsp; - Web analytics (Website health, keywords ranking, traffic, customer behavior,..)</div><div>&nbsp; &nbsp; &nbsp; &nbsp; - Social media analytic and performance reports</div><div>&nbsp; &nbsp; &nbsp; &nbsp; - competitors’ performance report</div><div>-&nbsp;<span style=\"font-size: 1rem;\">Developing social media content plans that are consistent with the company’s master marketing plan and brand identity</span></div><div><div>- Building strong and engaging social media presence</div><div>- Monitoring company's brand on social media and analyzing data to determine whether online campaigns have achieved their objectives</div><div>- Overseeing customer service provided via social media</div><div>- Managing our online communities to ensure respectful and appropriate engagement</div><div>- Running company social media advertising campaigns</div><div>- Edit and proofread content before final publication</div><div>- Stays on top of industry news</div><div>- Prepare and execute conversion tests</div><div>- Coaching employees company-wide on content creation best practices</div><div>- Provides educational opportunities, relevant information, and growth opportunities for digital marketing staff</div><div>- Grow the website traffic and enable digital growth</div></div>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_styles": {
+            "BLOCKQUOTE": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "content2-1f"
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#ffffff"
+          },
+          "text": "<p><b>Requirements</b></p><p>- Bachelor’s degree in Marketing or relevant field.</p><p>- A minimum of 5 years’ experience in a digital marketing or advertising position.</p><p>- Highly creative with in-depth knowledge of various social media platforms, best practices, and website analytics.</p><p>- Experience using various analytics software and social media management tools (Hootsuite, Google Analytics, etc.. )</p><p>- Excellent project management skills.</p><p>- Effective communication and interpersonal skills.</p><p>- Up-to-date on the latest trends and technologies in digital marketing.</p><p>- Multi-tasking and time-management skills, with the ability to prioritize tasks.</p>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_styles": {
+            "BLOCKQUOTE": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "content2-1g"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".mbr-section-text": {
+              "color": "#000000"
+            },
+            ".mbr-section-title": {
+              "color": "#e74c3c"
+            }
+          },
+          "_params": {
+            "showImages": true,
+            "showNumber": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": true,
+            "imageSize": "63",
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#eeeeee",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nb11.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "Social Media Specialist",
+          "subtitle1": "Job Disciptiond",
+          "caption1": "We are looking for an experienced and enthusiastic Social Media Specialist to join our creative team. You will be responsible for creating social media campaigns and the day-to-day management of the company’s social media properties. Your passion for social media as a communications tool will result in the adoption and implementation of social media best practices across all social media channels.<br><br>Candidate shall be an excellent communicator, a versatile creative writer, and a team player. He/She will be actively participating in data collection and analyses in order to consistently improve the company’s social media practices over time.<br>",
+          "number1": "2",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"index.html#contacts3-z\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-edit mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features8",
+          "_anchor": "features8-1h"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "0",
+            "bgColor": "#ffffff"
+          },
+          "text": "<p><b>Responsibilities</b></p><p>- Participate in developing social media content plans that are consistent with the company’s brand identity.</p><p>- Creating consistent, meaningful, engaging content on all social media platforms, including writing and editing social media posts</p><p>- Edit and proofread written pieces before publication</p><p>- Promoting social media campaigns</p><p>- Engage with online community and respond to comments and requests in a timely manner.</p><p>- Developing and managing social influencer programs and attending social influencer events</p><p>- Relay community feedback to relevant internal stakeholders.</p><p>- Suggesting recommendations to adjust the social media marketing strategy for optimal results.</p><p>- Using analytical tools such as Google Analytics, Hootsuite Pro, and Facebook Insights,..  to monitor and evaluate the company’s social media presence and performance.</p><p>- Staying up to date on best practices and emerging trends in social media.</p><p></p>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_styles": {
+            "P": {
+              "font-size": "16px",
+              "color": "#000000"
+            },
+            "DIV": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "content2-1i"
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#ffffff"
+          },
+          "text": "<p><b>Requirements</b></p><p>- Bachelor’s degree in journalism, communications, marketing, or a related field.</p><p>- 3 or more years of social media experience including initiating planning and managing content in a corporate, or agency setting.</p><p>- At least 2 years' experience managing following social media platforms is essential (Facebook, Instagram, LinkedIn, Snapchat, Twitter, and YouTube.</p><p>- Strong writing and verbal communication skills in both Arabic &amp; English.</p><p>- Experience using various analytics software and social media management tools (Hootsuite, Google Analytics, etc.. )</p><p>- Multi-tasking and time-management skills, with the ability to prioritize tasks.</p><p>- Working knowledge of HTML and CSS.</p>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_styles": {
+            "BLOCKQUOTE": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "content2-1j"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".mbr-section-text": {
+              "color": "#000000"
+            },
+            ".mbr-section-title": {
+              "color": "#e74c3c"
+            }
+          },
+          "_params": {
+            "showImages": true,
+            "showNumber": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": true,
+            "imageSize": "63",
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#eeeeee",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nb11.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "<b>Creative Content Developer</b>",
+          "subtitle1": "Job Disciptiond",
+          "caption1": "We are looking for a creative, dedicated individual to join our team as a Content Developer. The responsibilities of the Content Developer include creating original content for our website, update existing material, and advertising that includes copywriting, graphics, and product description. The Content Developer must also adhere to SEO best practices.<br><br>The Content Developer focus on creating engaging material appealing to consumers' interests.<br>",
+          "number1": "3",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"index.html#contacts3-z\" data-toolbar=\"-mbrBtnMove\"><span class=\"icon54-v3-clipboard-write mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features8",
+          "_anchor": "features8-1k"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "0",
+            "bgColor": "#ffffff"
+          },
+          "text": "<p><b>Responsibilities</b></p><p>- Research industry-related topics and recommend new topics.</p><p>- Collaborating with the team and internal departments to establish campaign objectives</p><p>- Coordinate with marketing and design teams to illustrate content&nbsp;</p><p>- Conduct keyword research (in-depth) and apply SEO guidelines to optimize content</p><p>- The Content Developer must also adhere to SEO best practices.</p><p>- Creates new, creative &amp; engaging ideas to compete with other brands&nbsp;</p><p>- Writing clear, concise, creative, and engaging micro content such as :</p><p>&nbsp; &nbsp; &nbsp;- Engaging social posts</p><p>&nbsp; &nbsp; &nbsp;- Create marketing copy for Digital ads</p><p>&nbsp; &nbsp; &nbsp;- Short videos scenario&nbsp;</p><p>&nbsp; &nbsp; &nbsp;- Infographics</p><p>&nbsp; &nbsp; &nbsp;- Slogans for POS</p><p>- Formulating high-quality optimized written macro content such as :</p><p>&nbsp; &nbsp; &nbsp;- Blog posts</p><p>&nbsp; &nbsp; &nbsp;- Website content</p><p>&nbsp; &nbsp; &nbsp;- Product description</p><p>&nbsp; &nbsp; &nbsp;- Email newsletter</p><p>&nbsp; &nbsp; &nbsp;- Landing pages</p><p>&nbsp; &nbsp; &nbsp;- products campaigns</p><p>- Review and proofread written content before final publication</p><p><br></p><p></p>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_styles": {
+            "P": {
+              "font-size": "16px",
+              "color": "#000000"
+            },
+            "DIV": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "content2-1l"
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#ffffff"
+          },
+          "text": "<p><b>Requirements</b></p><p>- Bachelor’s degree in English, Marketing, or a similar field</p><p>- Experience creating strong, engaging content</p><p>- A portfolio of applicable outputs</p><p>- Practical understanding of SEO best practices</p><p>- Demonstrated excellence in writing, proofreading, and editing in both Arabic &amp; English.</p><p>- Excellent research, organizational, and time management skills</p><p>- Strong listening and communication skills</p><p>- The capacity to work independently and collaboratively</p><p>- Ability to work efficiently without compromising quality or accuracy</p>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_styles": {
+            "BLOCKQUOTE": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "content2-1m"
+        },
+        {
+          "_styles": {},
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": "1",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showText1": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/07.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.7
+          },
+          "title": "INSTRUCTION TO APPLY",
+          "text": "<b>To apply for one of the above positions, please send an email to  <a href=\"mailto:careers@alalali.com\">careers@alalali.com</a>  and mention the positions that  you are applying for.</b><br>",
+          "text1": "or <a href=\"http://mobirise.com\">Check FAQ</a>.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Apply now</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "call5",
+          "_anchor": "call5-1n"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/img_extHeader7_bg.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#c0392b",
+            "overlay": true,
+            "overlayColor": "#35a0c6",
+            "overlayOpacity": 0.4,
+            "facebook": true,
+            "twitter": true,
+            "google": false,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "text": "SHARE THIS PAGE!",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_customHTML": "<section class=\"mbr-section mbr-section-md-padding social-buttons1\" data-rv-view=\"358\" style=\"background-color: rgb(192, 57, 43); padding-top: 30px; padding-bottom: 0px;\">\n    \n    <div class=\"container-fluid\">\n        <div class=\"row\">\n            <div class=\"col-md-8 col-md-offset-2 text-xs-center\">\n                <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"197\">SHARE THIS PAGE!</h3>\n                <div>\n\n                  <div class=\"mbr-social-likes\" data-counters=\"false\">\n                    <span class=\"btn btn-social facebook\" title=\"Share link on Facebook\">\n                        <i class=\"socicon socicon-facebook\"></i>\n                    </span>\n                    <span class=\"btn btn-social twitter\" title=\"Share link on Twitter\">\n                        <i class=\"socicon socicon-twitter\"></i>\n                    </span>\n                    \n                    \n                    \n                  </div>\n\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);\n.btn-social {\n  color: #fff;\n  height: 60px;\n  width: 60px;\n  line-height: 60px;\n  font-size: 2rem;\n}\n.mbr-section-title {\n  color: #fff;\n  font-family: 'Lato', sans-serif;\n}\n",
+          "_customTemplate": true,
+          "_anchor": "social-buttons1-1o"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true,
+            "animText1": "AGENCIES",
+            "animText2": "STARTUPS",
+            "animText3": "PORTFOLIOS",
+            "typeSpeed": 60,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/11-2.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#333333",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.1
+          },
+          "title": "WEBSITE BUILDER <br> FOR",
+          "text": "Full-screen intro with \"typed\" text effect. Enter in any string, and watch it type at the speed you have set, backspace what it is typed, and begin a new string. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt, neque voluptatibus excepturi laboriosam possimus adipisci quidem dolores omnis, nemo dolore eligendi blanditiis voluptatem in, doloribus hic aperiam maiores fugit.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">GET FREE TRIAL</a>",
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header11",
+          "_customHTML": "<section class=\"mbr-section mbr-section-hero mbr-section-full header11\" data-rv-view=\"363\" style=\"background-color: rgb(51, 51, 51);\">\n\n    \n        <div class=\"mbr-table-cell\">\n            <div class=\"container\">\n                <div class=\"mbr-section row\">\n                    <div id=\"title\">\n                        <div class=\"span-title\">\n                            <h1 class=\"mbr-section-title display-1 text-center pad-r mbr-editable-content\">WEBSITE BUILDER <br> FOR</h1>\n                            <h1 class=\"mbr-section-title display-1 element typedheader11-17\" adress=\"typedheader11-17\" firstel=\"AGENCIES\" secondel=\"STARTUPS\" thirdel=\"PORTFOLIOS\" typespeed=\"60\">\n                            </h1>\n                        </div>\n                        <div class=\"mbr-section-text lead text-center\">\n                            <p class=\"mbr-editable-content\">Full-screen intro with \"typed\" text effect. Enter in any string, and watch it type at the speed you have set, backspace what it is typed, and begin a new string. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt, neque voluptatibus excepturi laboriosam possimus adipisci quidem dolores omnis, nemo dolore eligendi blanditiis voluptatem in, doloribus hic aperiam maiores fugit.</p>\n                         </div>\n\n                        <div class=\"mbr-section-btn text-center\"><a class=\"btn btn-primary mbr-editable-button\" href=\"https://mobirise.com\">GET FREE TRIAL</a></div>\n\n                    </div>\n                </div> \n            </div> \n        </div> \n    <div class=\"mbr-arrow mbr-arrow-floating\" aria-hidden=\"true\">\n        <a href=\"#contacts3-z\">\n            <img alt=\"\" src=\"@PROJECT_PATH@/assets/images/arrowdown.png\">\n        </a>\n    </div>                 \n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "",
+          "_customTemplate": true,
+          "_anchor": "header11-1p"
+        },
+        {
+          "_params": {
+            "showCat1": false,
+            "showCat2": false,
+            "showCat3": true,
+            "showText": true,
+            "showButtons": true,
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#e74c3c",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "title1": "350 5th Ave, New York, NY 10118",
+          "title2": "+1 234-567-890",
+          "title3": "<a href=\"mailto:careers@alalali.com\">&nbsp;careers@alalali.com</a>",
+          "cat1": "address",
+          "cat2": "phone",
+          "cat3": "email",
+          "text": "<b>INSTRUCTION TO APPLY<br>To apply for one of the above positions, please send an email to&nbsp; <a href=\"mailto:careers@alalali.com\">careers@alalali.com</a>&nbsp; and mention the positions that &nbsp;you are applying for.<br><br>WE APPRTIATE IF YOU SHARE THIS PAGE OF&nbsp;</b>",
+          "buttons": "   <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.facebook.com/alalali/\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-facebook\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-linkedin\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-linkedin\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-linkedin\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-linkedin\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-linkedin\"></span></a>",
+          "formButton": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
+          "form": {
+            "action": "ashram@wsi-sa.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts3",
+          "_customCSS": ".form-control-label {\n  color: undefined;\n}\n.mbr-section-text {\n  color: #ffffff;\n}\n",
+          "_customHTML": "<section class=\"mbr-section mbr-section-hero contacts\" data-rv-view=\"254\" style=\"background-color: rgb(231, 76, 60); padding-top: 20px; padding-bottom: 0px;\">\n\n    \n\n    <div class=\"mbr-table-cell\">\n\n        <div class=\"container-fluid\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-md-6 col-lg-5 col-lg-offset-1 text-xs-left \">\n\n                    \n                    \n                    <div>\n\n                      <h1 class=\"mbr-section-title display-6 mbr-editable-content\" code-editable-id=\"198\"><a href=\"mailto:careers@alalali.com\">&nbsp;careers@alalali.com</a></h1>\n                    </div>\n\n      <div class=\"mbr-section-btn padding-bottom-40 btn-wrap\">   \n\n<a class=\"btn btn-primary mbr-editable-button\" href=\"https://www.facebook.com/alalali/\" code-editable-id=\"199\"><span class=\"socicon socicon-facebook\"></span></a>\n\n<a class=\"btn btn-primary mbr-editable-button\" href=\"https://www.instagram.com/alalali_me/\" code-editable-id=\"200\"><span class=\"socicon socicon-instagram\"></span></a> \n\n<a class=\"btn btn-primary mbr-editable-button\" href=\"https://twitter.com/alalali_ME\" code-editable-id=\"201\"><span class=\"socicon socicon-twitter\"></span></a> \n\n<a class=\"btn btn-primary mbr-editable-button\" href=\"https://www.youtube.com/channel/UCvjS2iJ69KJLxGfEQqUTi8A\" code-editable-id=\"202\"><span class=\"socicon socicon-youtube\"></span></a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customTemplate": true,
+          "_anchor": "contacts3-1q"
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2020 al alali. All rights reserved. Developed by&nbsp;<a href=\"http://mobirise.com\">WSI</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-1r"
+        }
+      ]
+    }
+  }
+}
